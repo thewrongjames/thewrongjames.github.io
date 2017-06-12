@@ -15,14 +15,22 @@ body {
     font-size: 4em;
 }
 
-.footer {
+.header {
     font-family: 'Roboto', sans-serif;
     color: white;
     display: inline-block;
-    position: absolute;
-    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .link {
     color: rgb(20, 70, 255);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
