@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('leaguegothic-regular-webfont.ttf');
+}
+
+body {
+    background-color: rgb(33, 37, 48);
+}
+
+.content {
+    font-family: 'LeagueGothic';
+    margin: 25% auto 0;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+.link {
+    color: rgb(20, 70, 255);
+}
