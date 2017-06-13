@@ -3,16 +3,23 @@
     src: url('leaguegothic-regular-webfont.ttf');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(33, 37, 48);
 }
 
 .content {
     font-family: 'LeagueGothic';
-    margin: 25% auto 0;
+    margin: 25vh auto 0;
     color: white;
     text-align: center;
     font-size: 4em;
+    padding: 0 10vw;
 }
 
 .header {
@@ -20,7 +27,6 @@ body {
     color: white;
     display: inline-block;
     width: 100%;
-    margin: 0;
 }
 
 .link {
