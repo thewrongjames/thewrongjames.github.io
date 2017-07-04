@@ -12,6 +12,7 @@
 body {
     background-color: rgb(33, 37, 48);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -23,7 +24,7 @@ a:hover {
 }
 
 
-.content {
+.full-page {
     font-family: 'LeagueGothic';
     margin: 30vh auto 0;
     text-align: center;
@@ -32,10 +33,9 @@ a:hover {
 }
 
 .header {
-    font-family: 'Roboto', sans-serif;
     display: inline-block;
     width: 100%;
-    padding: 15px;
+    padding: 30px;
 }
 
 .left {
@@ -47,9 +47,8 @@ a:hover {
 }
 
 .footer {
-    font-family: 'Roboto', sans-serif;
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 15px;
+    padding: 30px;
 }
