@@ -10,32 +10,47 @@
 }
 
 body {
-    background-color: rgb(33, 37, 48);
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
-a {
+.dark {
+    background-color: rgb(33, 37, 48);
+}
+
+.dark a {
     color: rgb(20, 70, 255);
+}
+
+.light {
+    background-color: rgb(20, 70, 255);
+}
+
+.light a {
+    color: rgb(33, 37, 48);
 }
 
 a:hover {
     color: rgb(0, 255, 51);
 }
 
-
-.full-page {
-    font-family: 'LeagueGothic';
-    margin: 30vh auto 0;
-    text-align: center;
-    font-size: 4em;
-    padding: 0 10vw;
+.big {
+    height: 80vh;
+    min-width: 480px;
 }
 
-.header {
-    display: inline-block;
+.centre-text {
+    font-family: 'LeagueGothic';
+    text-align: center;
+    font-size: 4em;
+    padding: 30vh 10vw;
+}
+
+.bar {
     width: 100%;
     padding: 30px;
+    height: 10vh;
+    min-width: 480px;
 }
 
 .left {
@@ -44,11 +59,4 @@ a:hover {
 
 .right {
     float: right;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 30px;
 }
