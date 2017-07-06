@@ -60,3 +60,18 @@ a:hover {
 .right {
     float: right;
 }
+
+.projects-container {
+    font-family: 'LeagueGothic';
+    font-size: 1.5em;
+    width: 80%;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.project {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}

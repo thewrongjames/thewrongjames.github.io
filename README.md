@@ -1,2 +1,2 @@
 # wrightwhy
-The github pages site that wrightwhy.com will point to.
+The github pages site that wrightwhy.com points to.
