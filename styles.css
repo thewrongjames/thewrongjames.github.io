@@ -17,19 +17,18 @@ body {
 }
 
 .title {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 3em;
+    font-family: Impact, Charcoal, sans-serif
 }
 
 .dark {
     background-color: rgb(33, 37, 48);
 }
 
-.dark a {
-    color: rgb(20, 70, 255);
-}
-
-.light a {
-    color: rgb(33, 37, 48);
+a {
+    text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -43,6 +42,7 @@ a:hover {
 
 .large {
     height: 50vh;
+    padding: 20px 0;
 }
 
 .small {
@@ -53,7 +53,7 @@ a:hover {
     font-family: 'Georgia', serif;
     font-style: italic;
     font-size: 1.2em;
-    padding: 20px 10px 10px 10px;
+    padding: 10px 0;
 }
 
 .left {
