@@ -11,7 +11,12 @@
 
 body {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
 }
 
 .dark {
@@ -35,22 +40,16 @@ a:hover {
 }
 
 .big {
-    height: 80vh;
+    height: 100vh;
     min-width: 480px;
 }
 
-.centre-text {
-    font-family: 'LeagueGothic';
+.quote {
+    font-family: 'Georgia', serif;
+    font-style: italic;
     text-align: center;
-    font-size: 4em;
-    padding: 30vh 10vw;
-}
-
-.bar {
-    width: 100%;
-    padding: 30px;
-    height: 10vh;
-    min-width: 480px;
+    font-size: 1.2em;
+    padding: 50px;
 }
 
 .left {
@@ -62,8 +61,7 @@ a:hover {
 }
 
 .projects-container {
-    font-family: 'LeagueGothic';
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 80%;
     padding-top: 10%;
     margin: auto;
