@@ -3,37 +3,65 @@
     <head>
         <title>WrightWhy</title>
         <link rel='stylesheet' href='styles.css' />
-        <link
-            href='https://fonts.googleapis.com/css?family=Roboto'
-            rel='stylesheet'
-        >
+        <link rel='shortcut icon' href='/favicon.ico' />
+        <meta charset="UTF-8">
     </head>
     <body>
-        <div class='big dark'>
-            <h1>James Wright</h1>
+        <div class='section dark'>
+            <h1 class='title'>James Wright</h1>
+            <img
+                src='question_mark.svg'
+                onerror='question_mark.svg="question_mark_1000.png"'
+                class='large'
+            >
             <p class='quote'>
                 I'm just another member of species homo-sapiens, <br>
                 who happens to call Sol 3 home.
             </p>
+            <img
+                src='arrow.svg'
+                onerror='arrow.svg="arrow_1000.png"'
+                class='small'
+            >
         </div>
-        <div class='big light'>
+        <div class='section light'>
             <div class='projects-container'>
-                <div class='project left'>
+                <h1 class='title'>Things I Have Made</h1>
+                <div class='project left dark'>
+                    <h1>Blog</h1>
+                    <p class='quote'>Some words...</p>
+                </div>
+                <div class='project right dark'>
+                    <h1>My Github</h1>
+                    <p class='quote'>Much of my work can be found here...</p>
+                </div>
+                <div class='project left dark'>
                     <h1>Chessm8</h1>
+                    <p class='quote'>An online chess interface...</p>
                 </div>
-                <div class='project right'>
+                <div class='project right dark'>
                     <h1>Underscore</h1>
+                    <p class='quote'>
+                        A simple, sandboxable programming language...
+                    </p>
                 </div>
-                <div class='project left'>
-                    <h1>Github</h1>
-                </div>
-                <div class='project right'>
+                <div class='project left dark'>
                     <h1>YouTube</h1>
+                    <p class='quote'>Nothing to see here...</p>
                 </div>
-                <div class='project'>
+                <div class='project right dark'>
+                    <h1>Twitter</h1>
+                    <p class='quote'>Even less to see here...</p>
+                </div>
+                <div class='project left dark'>
                     <h1>Old WrightWhy</h1>
+                    <p class='quote'>
+                        A task manger, a tournament organiser and a list of the
+                        first sixteen thousand and one primes...
+                    </p>
                 </div>
             </div>
         </div>
+        <p class='footer dark'>© James Wright 2017</p>
     </body>
 </html>
