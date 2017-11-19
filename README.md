@@ -1,2 +1,2 @@
-# wrightwhy
-The github pages site that wrightwhy.com points to.
+# thewrongjames.com
+The github pages portfolio site for stuff that I do.
