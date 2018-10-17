@@ -15,7 +15,6 @@ body {
 .title {
     padding-bottom: 20px;
     font-size: 3em;
-    font-family: Impact, Charcoal, sans-serif
 }
 
 .dark {
@@ -56,15 +55,10 @@ a:hover {
     padding: 10px 0;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 .projects-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 45% 45%;
     font-size: 1em;
     width: 80%;
     padding-bottom: 30px 0;
@@ -72,7 +66,7 @@ a:hover {
 }
 
 .project {
-    width: 49%;
+    width: 100%;
     margin: 5px auto;
     padding: 20px;
     border-radius: 10px;
@@ -85,8 +79,8 @@ a:hover {
     padding: 20px 10px;
 }
 
-@media screen and (max-width: 810px) {
-    .project {
-        width: 100%;
+@media screen and (max-width: 900px) {
+    .projects-container {
+        grid-template-columns: auto;
     }
 }
