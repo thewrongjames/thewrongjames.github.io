@@ -1,86 +1,76 @@
+:root {
+  --main-colour: #3D3D3D;
+  --highlight-colour: #0D0D0D;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    text-align: center;
-    background-color: rgb(0, 55, 200);
-    word-wrap: break-word;
+  font-family: Verdana, sans-serif;
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+  color: var(--main-colour);
 }
 
-.title {
-    padding-bottom: 20px;
-    font-size: 3em;
+h1, h2, h3, h4, h5, h6, b {
+  color: var(--highlight-colour)
 }
 
-.dark {
-    background-color: rgb(33, 37, 48);
+.intro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px auto;
+  align-items: center;
+  grid-gap: 50px;
+  padding: 20px 0;
 }
 
-.light {
-    background-color: rgb(0, 55, 200);
+.intro p {
+  font-size: 1.5rem;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.intro img {
+  width: 100%;
+  margin: auto;
+  max-width: 250px;
+  border-radius: 100%;
 }
 
-a:hover {
-    color: rgb(0, 255, 51);
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.section {
-    min-width: 300px;
-    padding: 30px 0;
+.icon-row a svg {
+  width: 5rem;
+  fill: var(--main-colour);
+  transition: fill .3s ease;
+  margin: 10px 20px;
 }
 
-.logo {
-    height: 50vh;
-    padding: 20px 0;
-}
-
-.small {
-    height: 15vh;
-}
-
-.quote {
-    font-family: 'Georgia', serif;
-    font-style: italic;
-    font-size: 1.2em;
-    padding: 10px 0;
-}
-
-.projects-container {
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 45% 45%;
-    font-size: 1em;
-    width: 80%;
-    padding-bottom: 30px 0;
-    margin: auto;
-}
-
-.project {
-    width: 100%;
-    margin: 5px auto;
-    padding: 20px;
-    border-radius: 10px;
+.icon-row a svg:hover {
+  fill: var(--highlight-colour);
 }
 
 .footer {
-    display: inline-block;
-    width: 100%;
-    margin-top: 20px;
-    padding: 20px 10px;
+  text-align: center;
+  margin: 40px 0;
+  border-top: 2px solid var(--main-colour);
 }
 
-@media screen and (max-width: 900px) {
-    .projects-container {
-        grid-template-columns: auto;
-    }
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
 }
