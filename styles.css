@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, b {
   width: 100%;
   margin: auto;
   max-width: 250px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .icon-row {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, b {
   fill: var(--highlight-colour);
 }
 
-.footer {
+footer {
   text-align: center;
   margin-top: 40px;
   border-top: 2px solid var(--main-colour);
