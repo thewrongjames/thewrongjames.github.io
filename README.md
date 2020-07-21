@@ -1,3 +1,3 @@
-# thewrongjames.com
+# thewrongjames.com / jameswright.me
 
-The github pages portfolio site for stuff that I do.
+A portfolio site for stuff that I do. Hosted from the master branch by netlify.
