@@ -14,6 +14,7 @@ body {
   margin: auto;
   color: var(--main-colour);
   padding: 20px 0;
+  min-width: 300px;
 }
 
 h1, h2, h3, h4, h5, h6, b {
@@ -24,20 +25,12 @@ h1 {
   text-align: center;
 }
 
-.intro {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 200px auto;
-  align-items: center;
-  grid-gap: 50px;
-  padding: 20px 0;
+#logo-container {
+  display: flex;
+  justify-content: center;
 }
 
-.intro p {
-  font-size: 1.5rem;
-}
-
-.intro img {
+#logo {
   width: 100%;
   margin: auto;
   max-width: 250px;
@@ -46,7 +39,7 @@ h1 {
 
 .icon-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -68,7 +61,7 @@ h1 {
 
 footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 1rem;
   border-top: 2px solid var(--main-colour);
 }
 
