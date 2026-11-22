@@ -1,0 +1,17 @@
+{
+  "name": "thewrongjames.github.io",
+  "homepage": "https://github.com/thewrongjames/thewrongjames.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/thewrongjames/thewrongjames.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewrongjames/thewrongjames.github.io.git"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
