@@ -1,3 +1,8 @@
-# thewrongjames.com / jameswright.me
+# jameswright.me
 
 A portfolio site for stuff that I do. Hosted from the master branch by netlify.
+
+Development server:
+```
+npm start
+```
