@@ -1,7 +1,7 @@
 :root {
   --main-colour: #333;
   --highlight-colour: black;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 /* See the license at /font/gudea/OFL.txt */
@@ -26,8 +26,7 @@
 
 body {
   font-family: Gudea;
-  width: 70%;
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
   color: var(--main-colour);
   padding: 20px 0;
@@ -64,14 +63,9 @@ footer {
   border-top: 2px solid var(--main-colour);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 740px) {
   body {
     width: 100%;
     padding: 20px;
-  }
-
-  .intro {
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
   }
 }
